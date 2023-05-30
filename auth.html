@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Campus Guidance System</title>
+	<link rel="stylesheet" type="text/css" href="auth.css">
+	<script src="auth.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Campus Guidance System</h1>
+		<h2>Login</h2>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+
+			<input type="submit" value="Login">
+		</form>
+
+		<h2>Sign Up</h2>
+		<form>
+			<label for="fullname">Full Name:</label>
+			<input type="text" id="fullname" name="fullname" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="newusername">Username:</label>
+			<input type="text" id="newusername" name="newusername" required>
+
+			<label for="newpassword">Password:</label>
+			<input type="password" id="newpassword" name="newpassword" required>
+
+			<fieldset>
+				<legend>Are you a resident?</legend>
+					<label for="Yes"> Yes</label>
+					<input type="radio" id="Yes" name="resident" value="yes"  >
+					<label for="No"> No</label>
+					<input type="radio" id="No" name="resident" value="No" >
+			</fieldset>
+			
+			<input type="submit" value="Sign Up">
+		</form>
+	</div>
+</body>
+</html>
